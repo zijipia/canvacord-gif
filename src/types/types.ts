@@ -1,5 +1,5 @@
 export interface RenderPayload<T = any> {
-	component: new (w: number, h: number) => any;
+	template: string;
 	props: T;
 	width: number;
 	height: number;
