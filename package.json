@@ -1,6 +1,6 @@
 {
 	"name": "canvacord-gif",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Render GIFs for Canvacord using worker threads.",
 	"keywords": [
 		"canvacord",
@@ -28,8 +28,9 @@
 	},
 	"dependencies": {
 		"canvacord": "^6.0.4",
+		"file-type": "^22.0.1",
 		"gif-encoder-2": "^1.0.5",
-		"jimp": "^1.6.0",
+		"jimp": "^1.6.1",
 		"omggif": "^1.0.10"
 	},
 	"devDependencies": {
